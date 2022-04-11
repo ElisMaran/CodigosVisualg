@@ -23,7 +23,7 @@ inicio
       parcMes <- valorFin/parc
       
       EscrevaL("")
-      Escreval("Você pagará o total de R$ ",valorFin)
+      Escreval("Você pagará o total de R$ ",valorFin, " com a taxa de 20% de juros simples,ao final do empréstimo")
       EscrevaL("")
       EscrevaL("Sendo ", parc, " parcelas de R$ ",parcMes, " , ao mes.")
       EscrevaL("")

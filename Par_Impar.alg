@@ -5,11 +5,10 @@ algoritmo "ParImpar"
 // Seção de Declarações 
 var
 
-   N: Real
+   N: Inteiro
    R: Caractere
 
 inicio
-
       Repita
 
          EscrevaL("--------- P A R .. OU .. Í M P A R ----------------")
@@ -18,15 +17,11 @@ inicio
          Leia(N)
          EscrevaL("-----------------------------------------")
 
-                Se N%2=0 entao
-
-                   EscrevaL("O número ", N, " é par !")
-
-                   Senao
-
-                     EscrevaL("O número ", n, " é ímpar !")
-
-                   FimSe
+         Se N%2=0 entao
+            EscrevaL("O número ", N, " é par !")
+         Senao
+            EscrevaL("O número ", N, " é ímpar !")
+         FimSe
                    
         EscrevaL("")
         EscrevaL("-----------------------------------------")

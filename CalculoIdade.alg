@@ -9,13 +9,11 @@ var
    R: caractere
    
 inicio
-
-
-      Repita
-
          EscrevaL("-------------------")
          EscrevaL("Em que ano estamos? ")
          Leia(ano)
+
+Repita
          EscrevaL("-------------------")
          EscrevaL("")
          EscrevaL("Em qual ano você nasceu? ")
