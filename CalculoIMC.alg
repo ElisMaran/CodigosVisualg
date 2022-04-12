@@ -29,19 +29,19 @@ inicio
       Se (imc<=18.5) entao
          EscrevaL("VOCÊ ESTÁ ABAIXO DO PESO!")
       Senao
-      Se (imc>18.5) e (imc<=24.9) entao
-         EscrevaL("VOCÊ ESTÁ COM O PESO IDEAL!")
-      Senao
-      Se (imc>24.9) e (imc<=29.9) entao
-         EscrevaL("VOCÊ ESTÁ COM OBESIDADE!")
-      Senao
-      Se (imc>29.9) e (imc<34.9) entao
-         EscrevaL("VOCÊ ESTÁ COM OBESIDADE SEVERA!")
-      Senao
-           EscrevaL("VOCÊ ESTÁ COM OBESIDADE MÓRBIDA!")
-      FimSe
-      FimSe
-      FimSe
+         Se (imc>18.5) e (imc<=24.9) entao
+            EscrevaL("VOCÊ ESTÁ COM O PESO IDEAL!")
+         Senao
+            Se (imc>24.9) e (imc<=29.9) entao
+               EscrevaL("VOCÊ ESTÁ COM OBESIDADE!")
+            Senao
+               Se (imc>29.9) e (imc<34.9) entao
+                  EscrevaL("VOCÊ ESTÁ COM OBESIDADE SEVERA!")
+               Senao
+                    EscrevaL("VOCÊ ESTÁ COM OBESIDADE MÓRBIDA!")
+               FimSe
+            FimSe
+         FimSe
       FimSe
 
     EscrevaL("")
