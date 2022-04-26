@@ -1,3 +1,3 @@
-# Lógica de programação 👩‍🎓
+# Lógica de programação 🌱
 
 Códigos em Visualg
